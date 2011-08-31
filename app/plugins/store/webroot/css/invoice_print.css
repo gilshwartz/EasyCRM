@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+html{
+	font-size:95%;
+}
+
+body{
+	background:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#container{
+	width:650px;
+	margin:auto;
+}
+
+
+.logo{
+    float:left;
+}
+
+#menu{
+	height:123px;
+	margin:0 0 20px 0;
+}
+
+#left{
+	float:left;
+	width:840px;
+	padding:0 0 50px 0;
+}
+
+#left a{
+    color:#116480
+}
+
+
+.small{
+	font-size:0.7em;
+}
+
+/**/
+
+h1{
+	margin:0 0 20px 0;
+	font-size:1.5em;
+	font-weight:normal;
+}
+
+table{
+	border:1px solid #b3ddf6;
+	width:100%;
+}
+
+table thead th{
+	background:#ecf6fc;
+	padding:10px 0 10px 0;
+	text-align:center;
+	border-top:1px solid #fff;
+}
+
+table tfoot th{
+	padding:10px 0 10px 0;
+	text-align:center;
+	border-top:1px solid #fff;
+}
+
+table td{
+	padding:7px 0 7px 0;
+        text-indent:7px;
+	text-align:center;
+        font-size:1em
+}
+
+#left .submitsmall, #left_big .submitsmall, #left_big .submitbig, #left .submitbig, #right .submitsmall, #right .submitbig, .submitbig{
+	background:url(../img/submitsmall.png) no-repeat;
+	text-align:center;
+	line-height:1.8em;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:0.7em;
+	text-decoration:none;
+	width:58px;
+	height:22px;
+	display:block;
+	margin:auto;
+	letter-spacing:0.1em;
+	border:0;
+	float:right;
+	margin:0 10px 0 0;
+	text-indent:0
+}
+
+#left .submitbig, #right .submitbig, #left_big .submitbig, .submitbig{
+	height:23px;
+	width:120px;
+	background:url(../img/submitbig.png) no-repeat;
+	text-transform:none;
+	letter-spacing:0
+}
+
+#right .submitsmall{
+	margin:inherit;
+	letter-spacing:0;
+	float:right;
+}
+
+.clearboth{
+	clear:both;
+}
+
+#left .roundbutton, #left_big .roundbutton, #right .roundbutton{
+	float:right;
+	width:139px;
+	height:36px;
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	line-height:2.3em;
+	background:url(../img/roundbutton.png) 0 0 no-repeat;
+	text-align:center;
+	text-decoration:none;
+	margin:-50px 0 0 0;
+	border:0;
+	cursor:pointer
+}
+
+.roundbutton:hover{
+	background:url(../img/roundbutton.png) 0 -36px no-repeat;
+}
+
+.toptable{
+	background:#ecf6fc;
+	padding:10px 0 10px 0;
+	border-top:1px solid #fff;
+	border:1px solid #b3ddf6;
+	width:100%;
+	text-indent:10px;
+	width:838px;
+}
+
+.tableinside{
+	border:none;
+	font-size:0.8em;
+}
+
+.tableinside td{
+	text-align:left;
+	text-indent:10px;
+}
+
+h1 a{
+	color:#333
+}
+#box {
+display: none;
+}
+
+.smallsizetable{
+	font-size:0.8em;
+}
+
+.smallsizetable td{
+	text-align:left;
+	text-indent:10px;
+	clear:both;
+}
+
+#tabs{
+	margin:20px 0 20px 0;
+}
+
+a img{
+	border:none;
+}
+
+
+.marginbottom20{
+	margin:0 0 20px 0;
+}
+
+
+#left_big{
+	width:100%;
+}
+
+.marginright0{
+	margin-right:0;
+}
+
+/**/
+.quoteaddress{
+	float:left;
+	width:650px;
+        margin:0 0 50px 0
+}
+
+.logo{
+    margin:50px 0 20px 0;
+    clear:both;
+}
+
+.quoteaddress .submitbig{
+	float:left;
+	margin:0 0 5px 0
+}
+
+.quoteaddress table td{
+	text-align:left;
+	background:none;
+}
+
+.quoteaddress table td table td{
+	padding:5px;
+}
+
+.quoteaddress table td input, .productlist input{
+	border:none;
+	border-bottom:1px solid #ccc;
+	padding:0 0 2px 0;
+	background:none;
+}
+
+.productlist td{
+	background:none;
+	border-bottom:1px solid #ccc;
+	text-align:center;
+}
+
+.quoteinfo{
+	float:right;
+	width:350px;
+        text-align: right;
+        margin:20px 0 30px 0
+}
+
+.quoteinfo table tr td{
+	text-align:left;
+	padding:5px
+}
+
+td.backgroundtd{
+	background:#fff url(../img/bgtd.png) repeat-x;
+	padding:7px;
+	text-align:right;
+
+}
+
+.productlist tr td{
+	padding:10px
+}
+td.alignleft{
+	text-align:left
+}
+
+.dashboardtable{
+	width:570px;
+	float:left;
+	margin:0 0 40px 0
+}
+
+.floatright{
+	float:right
+}
+
+.titledashboard{
+	height:30px;
+	width:570px;
+	background:url(../img/titledashboard.png) no-repeat;
+	line-height:1.8em;
+	color:#ffffff;
+	text-indent:10px;
+	font-size:1.1em;
+}
+
+[disabled] {
+  color:#666666;
+}
+
+.error-message{
+    background:#fff2f2;
+    font-size:0.8em;
+    color:red;
+    padding:2px;
+}
+#box{
+    display:none;
+}
+
+.modal{
+    display:none;
+    cursor: default;
+}
+
+/**/
+.modal h2, #add h2,#update h2, #progress h2,#requestLic h2,#amModal h2, #assignModal h2, #assignGroup h2, #allowLicForm h2, #groupCreation h2, #manualAllowLic h2, #question h2, #confirm h2, #partnerView h2{
+    background:#ecf6fc;
+    padding:10px;
+    border-top:1px solid #fff;
+    border:1px solid #b3ddf6;
+    text-indent:10px;
+    font-weight:normal;
+    font-size:1.3em;
+}
+
+.modal, #add, #update, #progress, #requestLic, #amModal, #statusModal, #assignModal, #assignGroup, #allowLicForm, #groupCreation, #manualAllowLic, #question, #confirm, #partnerView{
+    padding:0 0 0 0;
+}
+
+.modal form, #add form, #update form, #progress form,#requestLic form, #amModal form, #statusModal form, #assignModal form, #assignGroup form, #allowLicForm form, #groupCreation form, #manualAllowLic form, #question form, #confirm form, #partnerView form{
+    padding:10px;
+    text-align:left;
+}
+
+.modal .submitbig, #add .submitbig, #update .submitbig, #progress .submitbig,#requestLic .submitbig, #amModal .submitbig, #statusModal .submitbig, #assignModal .submitbig, #assignGroup .submitbig, #allowLicForm .submitbig, #groupCreation .submitbig, #manualAllowLic .submitbig, #question .submitbig, #confirm  .submitbig, #partnerView .submitbig{
+    margin:10px auto 0px;
+    float:none;
+}
+
+.modal label, #add label, #update label, #progress label,#requestLic label, #amModal label, #statusModal label, #assignModal label, #assignGroup label, #allowLicForm label, #groupCreation label, #manualAllowLic label, #question label, #confirm label, #partnerView label{
+    float:left;
+    width:30%;
+    clear:both;
+    margin:0 0 5px 0
+}
+
+.modal input, #add input, #update input, #progress  input,#requestLic input, #amModal input, #statusModal input, #assignModal input, #assignGroup input, #allowLicForm input, #groupCreation input, #manualAllowLic input, #question input, #confirm input, #partnerView input, #add select, #update select, #progress select,#requestLic select, #amModal select, #statusModal select, #assignModal select, #assignGroup select, #allowLicForm select, #groupCreation select, #manualAllowLic select, #question select, #confirm select, #partnerView select{
+    margin:0 0 5px 0
+}
+
+#left_big table tr.bggreen td{
+    background: #edf8dc;
+    border-bottom: 1px solid #fff;
+}
+
+.selectright{
+    float:right;
+    margin:-50px 0 0 0;
+}
+.red{
+    color:red;
+}
+
+.h1blockui{
+    margin:10px 0 10px 0;
+}
